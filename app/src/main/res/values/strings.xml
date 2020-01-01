@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Custom Listview</string>
+
+    <string-array name="sehir_array">
+
+        <item>Merkez</item>
+        <item>Enez</item>
+        <item>Havsa</item>
+        <item>İpsala</item>
+        <item>Keşan</item>
+        <item>Lalapaşa</item>
+        <item>Meriç</item>
+        <item>Süloğlu</item>
+        <item>Uzunköprü</item>
+
+    </string-array>
+
+    <string-array name="nufus_array">
+
+        <item>180327</item>
+        <item>10886</item>
+        <item>18947</item>
+        <item>27498</item>
+        <item>84442</item>
+        <item>6680</item>
+        <item>14201</item>
+        <item>7062</item>
+        <item>61485</item>
+
+    </string-array>
+
+    <string-array name="yuzolcumu_array">
+
+        <item>844</item>
+        <item>455</item>
+        <item>545</item>
+        <item>741</item>
+        <item>1098</item>
+        <item>497</item>
+        <item>438</item>
+        <item>342</item>
+        <item>1185</item>
+
+    </string-array>
+
+    <string-array name="rakim_array">
+
+        <item>50</item>
+        <item>18</item>
+        <item>78</item>
+        <item>18</item>
+        <item>122</item>
+        <item>161</item>
+        <item>42</item>
+        <item>151</item>
+        <item>32</item>
+
+    </string-array>
+
+    <string-array name="icon_array">
+
+        <item>@drawable/merkez</item>
+        <item>@drawable/enez</item>
+        <item>@drawable/havsa</item>
+        <item>@drawable/ipsala</item>
+        <item>@drawable/kesan</item>
+        <item>@drawable/lalapasa</item>
+        <item>@drawable/meric</item>
+        <item>@drawable/suloglu</item>
+        <item>@drawable/uzunkopru</item>
+
+    </string-array>
+
+</resources>

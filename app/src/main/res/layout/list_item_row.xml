@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee">
+
+    <ImageView
+        android:id="@+id/sehir_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="#EAEDED"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/sehir_adi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/sehir_icon"
+        android:maxLines="1"
+        android:text="Şehir Adı"
+        android:textColor="@android:color/black"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sehir_nufus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sehir_adi"
+        android:layout_toRightOf="@+id/sehir_icon"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:layout_marginTop="10dp"
+        android:text="Nüfus"
+        android:textColor="@android:color/black"
+        android:textSize="13dip" />
+
+    <TextView
+        android:id="@+id/sehir_yuzolcumu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sehir_adi"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:maxLines="3"
+        android:layout_marginTop="10dp"
+        android:text="Yüz Ölçümü"
+        android:textColor="@android:color/black"
+        android:textSize="13dip" />
+
+    <TextView
+        android:id="@+id/sehir_rakim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dip"
+        android:text="Rakım"
+        android:textColor="@android:color/black"
+        android:textSize="12dip" />
+
+</RelativeLayout>
